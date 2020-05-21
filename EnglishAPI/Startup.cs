@@ -30,6 +30,7 @@ namespace EnglishAPI
             services.AddScoped(typeof(IAlunos), typeof(AlunosBusiness));
             services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
 
+
             services.AddControllers();
         }
 
