@@ -22,7 +22,7 @@ dotnet build EnglishAPI.sln'''
         sh '''export DOTNET_ROOT=/home/pi/dotnet-arm32/
 export PATH=$PATH:/home/pi/dotnet-arm32/
 
-dotnet test'''
+dotnet test EnglishAPI.sln'''
       }
     }
 
