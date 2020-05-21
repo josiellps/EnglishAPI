@@ -19,13 +19,16 @@ dotnet build EnglishAPI.sln'''
 
     stage('Testes') {
       steps {
-        sh 'dotnet test'
+        sh '''export DOTNET_ROOT=/home/pi/dotnet-arm32/
+export PATH=$PATH:/home/pi/dotnet-arm32/
+
+dotnet test'''
       }
     }
 
     stage('Docker Build') {
       steps {
-        sh 'docker build -t englishAPI .'
+        sh 'docker-compose up -d'
       }
     }
 
