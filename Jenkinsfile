@@ -9,7 +9,10 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh '''dotnet restore
+        sh '''export DOTNET_ROOT=/home/pi/dotnet-arm32/
+export PATH=$PATH:/home/pi/dotnet-arm32/
+
+dotnet restore
 dotnet build'''
       }
     }
