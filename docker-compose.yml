@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  englishapi:
+    image: ${DOCKER_REGISTRY-}englishapi
+    build:
+      context: .
+      dockerfile: EnglishAPI/Dockerfile
