@@ -1,10 +1,10 @@
-﻿using EnglishAPI.Models.Base;
+﻿using Domain.Models.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EnglishAPI.Models
+namespace Domain.Models
 {
     public class Alunos : BaseEntity
     {        

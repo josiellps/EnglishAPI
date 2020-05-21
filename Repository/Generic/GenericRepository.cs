@@ -11,6 +11,11 @@ namespace Repository.Generic
     {
         private MySQLContext _context;
         private DbSet<T> dataset;
+        public GenericRepository()
+        {
+
+        }
+
         public GenericRepository(MySQLContext context)
         {
             _context = context;

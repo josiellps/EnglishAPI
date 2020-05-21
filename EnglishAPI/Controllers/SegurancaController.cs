@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using EnglishAPI.Business;
-using EnglishAPI.Business.Implementation;
-using EnglishAPI.Models;
+﻿using Business.Business;
+using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EnglishAPI.Controllers

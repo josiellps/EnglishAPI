@@ -1,22 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using EnglishAPI.Business;
-using EnglishAPI.Business.Implementation;
-using EnglishAPI.Context;
+using Business.Business;
+using Business.Implementation;
+using Data.Context;
 using EnglishAPI.Repository;
-using EnglishAPI.Repository.Generic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Repository.Generic;
 
 namespace EnglishAPI
 {

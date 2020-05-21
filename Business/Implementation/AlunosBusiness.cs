@@ -1,15 +1,14 @@
-﻿using EnglishAPI.Models;
-using EnglishAPI.Repository;
+﻿using Business.Business;
+using Domain.Models;
+using Repository;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace EnglishAPI.Business.Implementation
+namespace Business.Implementation
 {
     public class AlunosBusiness : IAlunos
     {
-        private IRepository<Alunos> repository;
+        private readonly IRepository<Alunos> repository;
         public AlunosBusiness(IRepository<Alunos> repositoryAlunos)
         {
             repository = repositoryAlunos;

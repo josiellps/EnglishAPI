@@ -1,10 +1,10 @@
-﻿using EnglishAPI.Models;
+﻿using Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EnglishAPI.Business
+namespace Business.Business
 {
     public interface IAlunos
     {
