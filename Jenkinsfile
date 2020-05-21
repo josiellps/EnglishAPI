@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git(url: 'https://github.com/josiellps/', branch: 'develop', credentialsId: 'josiellps')
+        git(url: 'https://github.com/josiellps/EnglishAPI', branch: 'develop', credentialsId: 'josiellps')
       }
     }
 
