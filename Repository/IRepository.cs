@@ -8,11 +8,11 @@ namespace Repository
 {
     public interface IRepository<T> where T : BaseEntity
     {
-        T Criar(T item);
-        T ProcurarPorId(long? id);
-        List<T> ListarTodos();
-        T Alterar(T item);
-        void Deletar(long? id);
-        bool Existe(long? id);
+        T Create(T item);
+        T FindById(long? id);
+        List<T> FindAll();
+        T Update(T item);
+        void Delete(long? id);
+        bool isExist(long? id);
     }
 }

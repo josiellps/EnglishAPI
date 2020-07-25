@@ -9,9 +9,9 @@ namespace Business.Business
     public interface IAlunos
     {
         Alunos Create(Alunos alunos);
-        Alunos ProdurarId(Alunos alunos);
-        List<Alunos>ListarTodos(Alunos alunos);
-        Alunos Alterar(Alunos alunos);
-        bool Existe(Alunos alunos);
+        Alunos FindById(Alunos alunos);
+        List<Alunos> FindAll();
+        Alunos Update(Alunos alunos);
+        bool isExist(Alunos alunos);
     }
 }

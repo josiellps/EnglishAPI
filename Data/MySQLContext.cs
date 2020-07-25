@@ -20,5 +20,6 @@ namespace Data.Context
         }
 
         DbSet<Alunos> Alunos { get; set; }
+        DbSet<Verbs> Verbs { get; set; }
     }
 }

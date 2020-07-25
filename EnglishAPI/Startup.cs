@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Repository;
 using Repository.Generic;
+using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.OpenApi.Models;
 
 namespace EnglishAPI
 {
@@ -28,8 +30,13 @@ namespace EnglishAPI
             services.AddDbContext<MySQLContext>(options => options.UseMySql(connection));
 
             services.AddScoped(typeof(IAlunos), typeof(AlunosBusiness));
+            services.AddScoped(typeof(IVerbs), typeof(VerbsBusiness));
             services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
-
+            // Configurando o serviço de documentação do Swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
             services.AddControllers();
         }
 
@@ -50,6 +57,14 @@ namespace EnglishAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            // Ativando middlewares para uso do Swagger
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json",
+                    "Conversor de Temperaturas");
             });
         }
     }

@@ -19,5 +19,11 @@ namespace EnglishAPI.Controllers
         {
             return Ok(_alunos.Create(alunos));
         }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(_alunos.FindAll());
+        }
     }
 }

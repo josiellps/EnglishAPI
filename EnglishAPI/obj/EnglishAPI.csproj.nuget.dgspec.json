@@ -1,43 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josie\\source\\repos\\EnglishAPI\\EnglishAPI\\EnglishAPI.csproj": {}
+    "/home/josiel/Documentos/projetos/EnglishAPI/EnglishAPI/EnglishAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Business\\Business.csproj": {
+    "/home/josiel/Documentos/projetos/EnglishAPI/Business/Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Business\\Business.csproj",
+        "projectUniqueName": "/home/josiel/Documentos/projetos/EnglishAPI/Business/Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\josie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Business\\obj\\",
+        "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Business/Business.csproj",
+        "packagesPath": "/home/josiel/.nuget/packages/",
+        "outputPath": "/home/josiel/Documentos/projetos/EnglishAPI/Business/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\josie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/josiel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj"
+              "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj": {
+                "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj"
               },
-              "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Repository\\Repository.csproj"
+              "/home/josiel/Documentos/projetos/EnglishAPI/Repository/Repository.csproj": {
+                "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Repository/Repository.csproj"
               }
             }
           }
@@ -65,41 +60,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Data\\Data.csproj": {
+    "/home/josiel/Documentos/projetos/EnglishAPI/Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Data\\Data.csproj",
+        "projectUniqueName": "/home/josiel/Documentos/projetos/EnglishAPI/Data/Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\josie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Data\\obj\\",
+        "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Data/Data.csproj",
+        "packagesPath": "/home/josiel/.nuget/packages/",
+        "outputPath": "/home/josiel/Documentos/projetos/EnglishAPI/Data/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\josie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/josiel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj"
+              "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj": {
+                "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj"
               }
             }
           }
@@ -133,35 +123,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj": {
+    "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\josie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\obj\\",
+        "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj",
+        "packagesPath": "/home/josiel/.nuget/packages/",
+        "outputPath": "/home/josiel/Documentos/projetos/EnglishAPI/Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\josie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/josiel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -191,47 +176,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josie\\source\\repos\\EnglishAPI\\EnglishAPI\\EnglishAPI.csproj": {
+    "/home/josiel/Documentos/projetos/EnglishAPI/EnglishAPI/EnglishAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\EnglishAPI\\EnglishAPI.csproj",
+        "projectUniqueName": "/home/josiel/Documentos/projetos/EnglishAPI/EnglishAPI/EnglishAPI.csproj",
         "projectName": "EnglishAPI",
-        "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\EnglishAPI\\EnglishAPI.csproj",
-        "packagesPath": "C:\\Users\\josie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\EnglishAPI\\obj\\",
+        "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/EnglishAPI/EnglishAPI.csproj",
+        "packagesPath": "/home/josiel/.nuget/packages/",
+        "outputPath": "/home/josiel/Documentos/projetos/EnglishAPI/EnglishAPI/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\josie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/josiel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Business\\Business.csproj"
+              "/home/josiel/Documentos/projetos/EnglishAPI/Business/Business.csproj": {
+                "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Business/Business.csproj"
               },
-              "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Data\\Data.csproj"
+              "/home/josiel/Documentos/projetos/EnglishAPI/Data/Data.csproj": {
+                "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Data/Data.csproj"
               },
-              "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj"
+              "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj": {
+                "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj"
               }
             }
           }
@@ -274,6 +254,10 @@
             "Pomelo.EntityFrameworkCore.MySql.Design": {
               "target": "Package",
               "version": "[1.1.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
             }
           },
           "imports": [
@@ -294,44 +278,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Repository\\Repository.csproj": {
+    "/home/josiel/Documentos/projetos/EnglishAPI/Repository/Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Repository\\Repository.csproj",
+        "projectUniqueName": "/home/josiel/Documentos/projetos/EnglishAPI/Repository/Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\josie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Repository\\obj\\",
+        "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Repository/Repository.csproj",
+        "packagesPath": "/home/josiel/.nuget/packages/",
+        "outputPath": "/home/josiel/Documentos/projetos/EnglishAPI/Repository/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\josie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/josiel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Data\\Data.csproj"
+              "/home/josiel/Documentos/projetos/EnglishAPI/Data/Data.csproj": {
+                "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Data/Data.csproj"
               },
-              "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\josie\\source\\repos\\EnglishAPI\\Domain\\Domain.csproj"
+              "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj": {
+                "projectPath": "/home/josiel/Documentos/projetos/EnglishAPI/Domain/Domain.csproj"
               }
             }
           }
@@ -359,7 +338,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,11 +22,11 @@ namespace Repository.Generic
             dataset = _context.Set<T>();
         }
 
-        public T Alterar(T item)
+        public T Update(T item)
         {
             try
             {
-                if (!Existe(item.Id)) return null;
+                if (!isExist(item.Id)) return null;
 
                 var result = dataset.SingleOrDefault(p => p.Id.Equals(item.Id));
                 if (result != null)
@@ -43,7 +43,7 @@ namespace Repository.Generic
             }
         }
 
-        public T Criar(T item)
+        public T Create(T item)
         {
             try
             {
@@ -57,7 +57,7 @@ namespace Repository.Generic
             }
         }
 
-        public void Deletar(long? id)
+        public void Delete(long? id)
         {
             try
             {
@@ -74,7 +74,7 @@ namespace Repository.Generic
             }
         }
 
-        public bool Existe(long? id)
+        public bool isExist(long? id)
         {
             try
             {
@@ -86,7 +86,7 @@ namespace Repository.Generic
             }
         }
 
-        public List<T> ListarTodos()
+        public List<T> FindAll()
         {
             try
             {
@@ -98,7 +98,7 @@ namespace Repository.Generic
             }
         }
 
-        public T ProcurarPorId(long? id)
+        public T FindById(long? id)
         {
             return dataset.SingleOrDefault(p => p.Id == id);
         }
